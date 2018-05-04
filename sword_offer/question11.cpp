@@ -4,7 +4,37 @@
 
 using namespace std;
 
-int main()
+class Solution {
+public:
+	int minNumberInRotateArray(vector<int> rotateArray) {
+		if (rotateArray.size() == 0)
+		{
+			return 0;
+		}
+		int l = 0;
+		int r = rotateArray.size() - 1;
+		int m = 0;
+		/* 用二分的思想 */
+		/* 这样的旋转数组肯定是不旋转之前的数组首值最小，而旋转之后从中间分开，前后两端必然有一段是正常有序而另一段是旋转的。
+		*  而最小值肯定在旋转的一段中*/
+		/* 边界问题要注意下 */
+		while (r > l + 1)
+		{
+			m = (l + r) / 2;
+			/* 若位于数组中间的值大于数组首值的话，说明前半段是有序的，则最小值肯定在后半段中 */
+			if (rotateArray[m] >= rotateArray[l])
+				l = m;
+			else
+				r = m;
+			cout << l <<"-" << r << endl;
+		}
+		return rotateArray[r];
+	}
+};
+void question11()
 {
-	cout << "hello git hub" << endl;
+	vector<int> vec = { 5,6,2,3,4};
+	Solution s;
+	cout << s.minNumberInRotateArray(vec) << endl;
 }
+
