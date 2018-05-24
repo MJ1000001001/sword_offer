@@ -112,7 +112,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="question10.cpp" />
+    <ClCompile Include="question10_2.cpp" />
+    <ClCompile Include="question10_3.cpp" />
     <ClCompile Include="question11.cpp" />
+    <ClCompile Include="question10_1.cpp" />
     <ClCompile Include="question29.cpp" />
     <ClCompile Include="question30.cpp" />
     <ClCompile Include="question32.cpp" />

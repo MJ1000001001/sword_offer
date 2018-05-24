@@ -15,6 +15,10 @@ int main()
 	//question7();
 	//question8();
 	//question11();
+	//question10();
+	//question10_1();
+	//question10_2();
+	question10_3();
 	system("pause");
 	return 0;
 }

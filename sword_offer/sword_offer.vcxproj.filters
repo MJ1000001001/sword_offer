@@ -57,6 +57,18 @@
     <ClCompile Include="question11.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="question10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="question10_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="question10_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="question10_3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="question.h">

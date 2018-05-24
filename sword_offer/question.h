@@ -21,3 +21,7 @@ void question6();
 void question7();
 void question8();
 void question11();
+void question10();
+void question10_1();
+void question10_2();
+void question10_3();
