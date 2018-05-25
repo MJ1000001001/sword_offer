@@ -81,6 +81,9 @@
     <ClCompile Include="question22.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="question24.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="question.h">
