@@ -20,7 +20,8 @@ int main()
 	//question10_2();
 	//question10_3();
 	//question15();
-	question16();
+	//question16();
+	question21();
 	system("pause");
 	return 0;
 }

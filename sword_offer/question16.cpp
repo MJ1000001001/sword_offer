@@ -26,6 +26,18 @@ public:
 		}
 		return res;
 	}
+	double power_with_active(double base, int exponent)
+	{
+		if (exponent == 0)
+			return 1;
+		if (exponent == 1)
+			return base;
+		double res = power_with_active(base, exponent >> 1);
+		res = res * res;
+		if (exponent & 0x01)
+			res = res * base;
+		return res;
+	}
 };
 
 void question16()
@@ -33,6 +45,6 @@ void question16()
 	Solution s;
 	int exponent = 0;
 	cin >> exponent;
-	double base = 1.2;
+	double base = 3.0;
 	cout << s.Power(base, exponent) << endl;
 }
