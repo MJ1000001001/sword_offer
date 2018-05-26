@@ -31,3 +31,4 @@ void question21();
 void question22();
 void question24();
 void question25();
+void question26();

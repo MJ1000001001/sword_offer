@@ -10,7 +10,7 @@ struct ListNode {
 		val(x), next(NULL) {
 	}
 };
-
+/*
 class Solution {
 public:
 	ListNode* Merge(ListNode* pHead1, ListNode* pHead2)
@@ -52,6 +52,30 @@ public:
 		else
 			res->next = temp1;
 		return (pHead1->val) <= (pHead2->val) ? pHead1 : pHead2;
+	}
+};
+*/
+
+class Solution {
+public:
+	ListNode* Merge(ListNode* pHead1, ListNode* pHead2)
+	{
+		if (pHead1 == NULL)
+			return pHead2;
+		if (pHead2 == NULL)
+			return pHead1;
+		ListNode *res;
+		if (pHead1->val <= pHead2->val)
+		{
+			res = pHead1;
+			res->next = Merge(pHead1->next,pHead2);
+		}
+		else
+		{
+			res = pHead2;
+			res->next = Merge(pHead1,pHead2->next);
+		}
+		return res;
 	}
 };
 
