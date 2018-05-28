@@ -7,6 +7,8 @@
 #include <stack>
 #include <algorithm>
 #include <queue>
+#include <unordered_map>
+
 
 void question30();
 int  question29();
