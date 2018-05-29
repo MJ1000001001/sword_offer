@@ -27,7 +27,8 @@ int main()
 	//question25();
 	//question26();
 	//question35();
-	question36();
+	//question36();
+	question37();
 	system("pause");
 	return 0;
 }
