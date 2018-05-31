@@ -36,3 +36,5 @@ void question25();
 void question26();
 void question36();
 void question37();
+void question38();
+void question39();

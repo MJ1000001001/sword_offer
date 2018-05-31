@@ -93,7 +93,10 @@
     <ClCompile Include="question36.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="question37.cpp">
+    <ClCompile Include="question39.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="question38.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{CCC2049D-4A9F-40F1-8BA4-933C8C5BCD2D}</ProjectGuid>
     <RootNamespace>sword_offer</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -131,7 +131,8 @@
     <ClCompile Include="question34.cpp" />
     <ClCompile Include="question35.cpp" />
     <ClCompile Include="question36.cpp" />
-    <ClCompile Include="question37.cpp" />
+    <ClCompile Include="question38.cpp" />
+    <ClCompile Include="question39.cpp" />
     <ClCompile Include="question4.cpp" />
     <ClCompile Include="question6.cpp" />
     <ClCompile Include="question5.cpp" />

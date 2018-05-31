@@ -7,7 +7,7 @@ using namespace std;
 class Solution {
 public:
 
-	void _Perm(string str, vector<string> &res_vec,int index)
+	void _Perm(string str, vector<string> &res_vec, int index)
 	{
 		if (index >= str.length())
 		{
@@ -35,7 +35,7 @@ public:
 	}
 };
 
-void question37()
+void question38()
 {
 	Solution s;
 	vector<string> vec = s.Permutation("abc");
