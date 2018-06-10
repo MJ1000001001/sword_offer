@@ -38,3 +38,4 @@ void question36();
 void question37();
 void question38();
 void question39();
+void question40();
