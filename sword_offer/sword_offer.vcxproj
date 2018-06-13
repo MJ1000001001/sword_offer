@@ -138,6 +138,7 @@
     <ClCompile Include="question42.cpp" />
     <ClCompile Include="question43.cpp" />
     <ClCompile Include="question45.cpp" />
+    <ClCompile Include="question49.cpp" />
     <ClCompile Include="question6.cpp" />
     <ClCompile Include="question5.cpp" />
     <ClCompile Include="question31.cpp" />
