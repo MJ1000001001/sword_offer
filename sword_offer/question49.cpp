@@ -51,6 +51,7 @@ public:
 };
 #endif
 
+/* 利用已知的丑数，推导出接下来的丑数 */
 class Solution {
 public:
 	int GetUglyNumber_Solution(int index)

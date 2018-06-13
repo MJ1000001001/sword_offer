@@ -8,6 +8,7 @@
 #include <algorithm>
 #include <queue>
 #include <unordered_map>
+//#include <hash_map>
 
 
 void question30();
@@ -43,3 +44,4 @@ void question42();
 void question43();
 void question45();
 void question49();
+void question50();
