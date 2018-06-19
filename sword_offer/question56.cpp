@@ -4,6 +4,7 @@
 
 using namespace std;
 
+/* 先找出来只有只有一个数字出现了一次。用异或就可以搞定。因为出现两次的数组异或都会变成0,留下的只有出现一次的数字 */
 class Solution {
 public:
 	void FindOneAppearOnce(vector<int> data, int *num)
@@ -17,6 +18,7 @@ public:
 		for (auto a = data.begin() + 1; a < data.end(); a++)
 			*num = *num ^ *a;
 	}
+	/* 全部异或，结果中找出为1的位，用这一位将整个数组分为两个数组，每个数组中就只有一个只出现了一次的数组 */
 	void FindNumsAppearOnce(vector<int> data, int* num1, int *num2)
 	{
 		int temp = data[0];

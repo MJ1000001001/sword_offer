@@ -51,3 +51,5 @@ void question53();
 void question55();
 void question55_2();
 void question56();
+void question56_2();
+void question57();

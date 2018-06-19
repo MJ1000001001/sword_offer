@@ -135,6 +135,12 @@
     <ClCompile Include="question56.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="question56_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="question57.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="question.h">

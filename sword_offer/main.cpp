@@ -42,7 +42,9 @@ int main()
 	//question53();
 	//question55();
 	//question55_2();
-	question56();
+	//question56();
+	//question56_2();
+	question57();
 
 	system("pause");
 	return 0;
