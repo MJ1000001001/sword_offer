@@ -149,9 +149,11 @@
     <ClCompile Include="question56_2.cpp" />
     <ClCompile Include="question57.cpp" />
     <ClCompile Include="question58.cpp" />
+    <ClCompile Include="question58_2.cpp" />
     <ClCompile Include="question6.cpp" />
     <ClCompile Include="question5.cpp" />
     <ClCompile Include="question31.cpp" />
+    <ClCompile Include="question61.cpp" />
     <ClCompile Include="question7.cpp" />
     <ClCompile Include="question9.cpp" />
   </ItemGroup>
