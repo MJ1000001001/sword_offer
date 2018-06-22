@@ -18,11 +18,11 @@ public:
 
 		while (1)
 		{
-			temp = array[i][j];
 			if (i >= row || j < 0)
 			{
 				return false;
 			}
+			temp = array[i][j];
 			if (temp == target)
 			{
 				return true;
@@ -42,11 +42,19 @@ public:
 void question4()
 {
 	int N, M;
-	cin >> N >> M;
-	vector<vector<int>> array;
+	//cin >> N >> M;
+	vector<vector<int>> array = {
+	{0,1,3,5,7,9},
+	{0,1,3,5,7,9},
+	{0,1,3,5,7,9},
+	{0,1,3,5,7,9},
+	{0,1,3,5,7,9},
+	{0,1,3,5,7,9}
+	};
 	vector<int> vec;
 	int temp = 0;
 
+#if 0
 	for (int i = 0; i < N; i++)
 	{
 		vec.clear();
@@ -57,6 +65,7 @@ void question4()
 		}
 		array.push_back(vec);
 	}
+#endif
 
 	int  value = 0;
 	cin >> value;
