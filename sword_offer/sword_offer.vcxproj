@@ -154,6 +154,7 @@
     <ClCompile Include="question5.cpp" />
     <ClCompile Include="question31.cpp" />
     <ClCompile Include="question61.cpp" />
+    <ClCompile Include="question62.cpp" />
     <ClCompile Include="question7.cpp" />
     <ClCompile Include="question9.cpp" />
   </ItemGroup>
